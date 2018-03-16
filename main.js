@@ -28,6 +28,7 @@ var claimReservation = function () {
   }
 
   console.log(reservations);
+  
   // Find a <table> element with id="myTable":
   var table = document.getElementById("myTable");
 
@@ -39,7 +40,6 @@ var claimReservation = function () {
       cell1.innerHTML = key + " " + k + " " + reservations[key][k];
     }
   }
-  
 }
 
 //claimReservation();
